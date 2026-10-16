@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>CYBERLOG AI</title><link rel="stylesheet" href="css/style.css">
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.3/dist/chart.umd.min.js"></script></head><body>
+<header><div class="brand">🛡️ CYBERLOG <b>AI</b><small>Intelligent Cybersecurity Log Analysis &amp; Threat Detection</small></div>
+<nav id="nav"><button data-tab="upload" class="active">Upload Logs</button><button data-tab="dashboard">Dashboard</button><button data-tab="threats">Threat Detection</button><button data-tab="ai">AI Analysis</button><button data-tab="ips">IP Analysis</button><button data-tab="logs">Log Explorer</button><button data-tab="reports">Reports</button></nav></header>
+<main>
+<section id="upload" class="tab active">
+ <div class="hero"><h1>AI-Powered Cybersecurity Log Analysis</h1><p>Analyze security logs (Apache/Nginx, SSH, firewall, Windows event CSV, JSON), detect suspicious patterns, identify anomalies and understand potential threats.</p><p class="muted">Educational tool: it only reads the logs you upload. It never scans or attacks anything.</p></div>
+ <div id="drop" class="drop"><div class="big">📂</div><h3>Drop your security log here</h3><p class="muted">.log .txt .csv .json (max 10 MB)</p><button class="btn" id="browse">Browse Files</button><input type="file" id="file" accept=".log,.txt,.csv,.json" hidden></div>
+ <div id="fileinfo" class="card hidden"></div>
+ <button id="analyze" class="btn big-btn hidden">[ ANALYZE LOG ]</button>
+</section>
+<section id="dashboard" class="tab"><div id="dash-empty" class="empty">No analysis yet. Upload a log first.</div><div id="dash-body" class="hidden">
+ <div class="cards" id="cards"></div>
+ <div class="grid"><div class="card"><h4>Threats by severity</h4><canvas id="c-sev"></canvas></div><div class="card"><h4>Threats by type</h4><canvas id="c-type"></canvas></div>
+ <div class="card wide"><h4>Requests over time (per minute)</h4><canvas id="c-time"></canvas></div><div class="card"><h4>Top suspicious IPs (risk score)</h4><canvas id="c-ips"></canvas></div>
+ <div class="card"><h4>Normal vs anomalous events</h4><canvas id="c-ai"></canvas></div><div class="card"><h4>HTTP status distribution</h4><canvas id="c-status"></canvas></div></div></div></section>
+<section id="threats" class="tab"><div class="filters" data-p="t"></div><div class="card scroll"><table id="t-table"></table></div></section>
+<section id="ai" class="tab"><div id="ai-body" class="empty">No analysis yet.</div></section>
+<section id="ips" class="tab"><div class="card scroll"><table id="ip-table"></table></div></section>
+<section id="logs" class="tab"><div class="filters" data-p="l"></div><div class="card scroll"><table id="l-table"></table></div></section>
+<section id="reports" class="tab"><button class="btn" id="gen">Generate Report</button> <button class="btn alt hidden" id="dl">Download Report</button><pre id="report" class="card"></pre></section>
+</main>
+<div id="overlay" class="overlay hidden"><div class="spin"></div><p id="ov-text">Analyzing…</p></div>
+<div id="toast" class="toast hidden"></div>
+<div id="modal" class="overlay hidden"><div class="card modal"><button class="x" id="close">✕</button><div id="modal-body"></div></div></div>
+<script src="js/app.js"></script></body></html>

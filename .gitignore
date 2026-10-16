@@ -1,0 +1,5 @@
+target/
+__pycache__/
+*.db
+.venv/
+.idea/

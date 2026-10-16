@@ -1,0 +1,50 @@
+Oct  2 09:00:00 server sshd[6497]: Accepted password for alice from 192.168.1.10 port 59205 ssh2
+Oct  2 09:03:20 server sshd[5313]: Accepted password for alice from 192.168.1.10 port 53320 ssh2
+Oct  2 09:06:40 server sshd[1860]: Accepted password for alice from 192.168.1.10 port 38715 ssh2
+Oct  2 09:10:00 server sshd[8144]: Accepted password for alice from 192.168.1.10 port 52470 ssh2
+Oct  2 09:10:00 server sshd[2399]: Failed password for invalid user root from 203.0.113.50 port 58837 ssh2
+Oct  2 09:10:01 server sshd[1249]: Failed password for invalid user test from 203.0.113.50 port 35563 ssh2
+Oct  2 09:10:03 server sshd[4868]: Failed password for invalid user admin from 203.0.113.50 port 57581 ssh2
+Oct  2 09:10:04 server sshd[4322]: Failed password for invalid user test from 203.0.113.50 port 35216 ssh2
+Oct  2 09:10:06 server sshd[6355]: Failed password for invalid user test from 203.0.113.50 port 36289 ssh2
+Oct  2 09:10:07 server sshd[6383]: Failed password for invalid user admin from 203.0.113.50 port 49701 ssh2
+Oct  2 09:10:09 server sshd[7216]: Failed password for invalid user root from 203.0.113.50 port 59739 ssh2
+Oct  2 09:10:10 server sshd[9787]: Failed password for invalid user test from 203.0.113.50 port 45384 ssh2
+Oct  2 09:10:12 server sshd[9693]: Failed password for invalid user admin from 203.0.113.50 port 52859 ssh2
+Oct  2 09:10:13 server sshd[1434]: Failed password for invalid user root from 203.0.113.50 port 44326 ssh2
+Oct  2 09:10:15 server sshd[4831]: Failed password for invalid user test from 203.0.113.50 port 48688 ssh2
+Oct  2 09:10:16 server sshd[4472]: Failed password for invalid user admin from 203.0.113.50 port 42830 ssh2
+Oct  2 09:10:18 server sshd[2274]: Failed password for invalid user test from 203.0.113.50 port 48520 ssh2
+Oct  2 09:10:19 server sshd[3369]: Failed password for invalid user root from 203.0.113.50 port 31078 ssh2
+Oct  2 09:10:21 server sshd[2833]: Failed password for invalid user root from 203.0.113.50 port 33495 ssh2
+Oct  2 09:10:22 server sshd[3651]: Failed password for invalid user test from 203.0.113.50 port 41300 ssh2
+Oct  2 09:10:24 server sshd[1470]: Failed password for invalid user root from 203.0.113.50 port 31011 ssh2
+Oct  2 09:10:25 server sshd[3267]: Failed password for invalid user root from 203.0.113.50 port 52695 ssh2
+Oct  2 09:10:27 server sshd[1698]: Failed password for invalid user test from 203.0.113.50 port 52839 ssh2
+Oct  2 09:10:28 server sshd[1764]: Failed password for invalid user root from 203.0.113.50 port 32154 ssh2
+Oct  2 09:10:30 server sshd[6954]: Failed password for invalid user test from 203.0.113.50 port 36531 ssh2
+Oct  2 09:10:31 server sshd[2080]: Failed password for invalid user test from 203.0.113.50 port 58826 ssh2
+Oct  2 09:10:33 server sshd[7288]: Failed password for invalid user test from 203.0.113.50 port 33509 ssh2
+Oct  2 09:10:34 server sshd[4370]: Failed password for invalid user root from 203.0.113.50 port 36657 ssh2
+Oct  2 09:10:36 server sshd[1554]: Failed password for invalid user root from 203.0.113.50 port 31128 ssh2
+Oct  2 09:10:37 server sshd[2433]: Failed password for invalid user test from 203.0.113.50 port 57035 ssh2
+Oct  2 09:10:39 server sshd[5708]: Failed password for invalid user test from 203.0.113.50 port 45634 ssh2
+Oct  2 09:10:40 server sshd[3173]: Failed password for invalid user root from 203.0.113.50 port 33206 ssh2
+Oct  2 09:10:42 server sshd[4358]: Failed password for invalid user test from 203.0.113.50 port 39648 ssh2
+Oct  2 09:10:43 server sshd[6513]: Failed password for invalid user admin from 203.0.113.50 port 43885 ssh2
+Oct  2 09:10:45 server sshd[1342]: Failed password for invalid user admin from 203.0.113.50 port 41498 ssh2
+Oct  2 09:10:46 server sshd[5630]: Failed password for invalid user admin from 203.0.113.50 port 31586 ssh2
+Oct  2 09:10:48 server sshd[7029]: Failed password for invalid user test from 203.0.113.50 port 59829 ssh2
+Oct  2 09:10:49 server sshd[9253]: Failed password for invalid user admin from 203.0.113.50 port 45600 ssh2
+Oct  2 09:10:51 server sshd[1507]: Failed password for invalid user admin from 203.0.113.50 port 55855 ssh2
+Oct  2 09:10:52 server sshd[1511]: Failed password for invalid user admin from 203.0.113.50 port 44301 ssh2
+Oct  2 09:10:54 server sshd[2610]: Failed password for invalid user test from 203.0.113.50 port 41363 ssh2
+Oct  2 09:10:55 server sshd[1788]: Failed password for invalid user admin from 203.0.113.50 port 47625 ssh2
+Oct  2 09:10:57 server sshd[4548]: Failed password for invalid user test from 203.0.113.50 port 53409 ssh2
+Oct  2 09:10:58 server sshd[5704]: Failed password for invalid user root from 203.0.113.50 port 35582 ssh2
+Oct  2 09:11:02 server sshd[8144]: Accepted password for admin from 203.0.113.50 port 30042 ssh2
+Oct  2 09:11:40 server sshd[9577]: Failed password for invalid user bob from 198.51.100.23 port 36620 ssh2
+Oct  2 09:13:20 server sshd[9572]: Accepted password for alice from 192.168.1.10 port 38693 ssh2
+Oct  2 09:13:40 server sshd[5724]: Failed password for invalid user bob from 198.51.100.23 port 54975 ssh2
+Oct  2 09:15:40 server sshd[1884]: Failed password for invalid user bob from 198.51.100.23 port 30142 ssh2
+Oct  2 09:16:40 server sshd[5843]: Accepted password for alice from 192.168.1.10 port 51037 ssh2
